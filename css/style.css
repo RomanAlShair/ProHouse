@@ -80,30 +80,6 @@ p {
   color: #545b79;
 }
 
-.gray-102 {
-  color: var(--grey-100, #545B79);
-
-/* desktop/p2 (regular) */
-font-family: "RF Dewi";
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px; /* 150% */
-}
-
-.gray-101 {
-  color: var(--grey-100, #545B79);
-
-/* desktop/p4 (CAPS regular) */
-font-family: "RF Dewi";
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-letter-spacing: 1.4px;
-text-transform: uppercase;
-}
-
 .bg-black-100 {
   background-color: #1b1f33;
 }
