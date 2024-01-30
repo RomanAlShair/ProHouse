@@ -97,11 +97,25 @@ line-height: 32px; /* 177.778% */
 
 .title {
   width: fit-content;
-  max-width: 710px;
   margin: 0 0 30px;
-  font-size: 48px;
-  color: white;
+  color: var(--white-100, #FFF);
+
+  /* mobile/H3 (bold) */
+  font-family: "RF Dewi Extended";
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 38px; /* 145.455% */
 }
+
+#stay {
+    color: #C3C5CE;
+    font-family: "RF Dewi";
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 7px;
+  }
+
 
 .w-min-content {
   width: min-content;
@@ -457,9 +471,7 @@ footer div span {
     width: 100%;
   }
 
-  .subscribe .container h1 {
-    font-size: 32px;
-  }
+
 }
 
 /* medium */
@@ -492,18 +504,6 @@ footer div span {
   }
   .properties .container .tabs .mySwiper {
     width: 100%;
-  }
-  #tt1 {
-    color: var(--white-100, #FFF);
-    text-align: center;
-    
-    /* desktop/H2 (bold) */
-    font-family: "RF Dewi Extended";
-    font-size: 35px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 40px; /* 125% */
-    white-space: nowrap;  
   }
 }
 
@@ -660,17 +660,6 @@ a:hover {
   line-height: 45px; /* 125% */
 }
 
-#stay {
-text-align: center;
-
-/* desktop/p1 (regular) */
-font-family: "RF Dewi";
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px; /* 177.778% */
-}
-
 #t1 {
   color: #fff;
   font-family: RF Dewi Extended;
@@ -761,7 +750,7 @@ line-height: 32px; /* 177.778% */
 }
 @media (max-width: 995px) {
   .navbar-dark .navbar-nav .nav-link {
-    padding: 2px;
+    padding: 8px;
   }
   .eshe {
     text-align: start;
@@ -792,7 +781,6 @@ line-height: 32px; /* 177.778% */
     display: none;
   }
   .navbar-nav {
-    padding-top: 30px;
     padding-left: 10px;
   }
 
@@ -862,18 +850,6 @@ line-height: 32px; /* 177.778% */
   }
   #blp {
     margin-top: 32px;
-  }
-  #tt1 {
-    color: var(--white-100, #FFF);
-    text-align: center;
-    
-    /* desktop/H2 (bold) */
-    font-family: "RF Dewi Extended";
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 45px; /* 125% */
-    white-space: nowrap;  
   }
 }
 @media (max-width: 991px) {
@@ -973,18 +949,7 @@ line-height: 32px; /* 177.778% */
     font-size: 17px;
     line-height: 30px;
   }
-  #tt1 {
-    color: var(--white-100, #FFF);
-    text-align: center;
-    
-    /* desktop/H2 (bold) */
-    font-family: "RF Dewi Extended";
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 30px; /* 125% */
-    white-space: nowrap;  
-  }
+
 }
 
 @media (max-width: 668px) {
@@ -1000,6 +965,32 @@ line-height: 32px; /* 177.778% */
     font-size: 42px;
     line-height: 51px;
   }
+  #ttq1 {
+    display: inline-block;
+    width: 100%;
+    max-width: 600px;
+    word-wrap: break-word;
+    margin: auto; 
+    color: var(--white-100, #FFF);
+    text-align: center;
+
+    /* mobile/H3 (bold) */
+    font-family: "RF Dewi Extended";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 145.455% */
+  }
+.qwe1 {
+  color: var(--grey-50, #C3C5CE);
+
+/* mobile/p2 (regular) */
+font-family: "RF Dewi";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
 }
 
 @media (max-width: 568px) {
@@ -1015,26 +1006,11 @@ line-height: 32px; /* 177.778% */
     font-size: 39px;
     line-height: 48px;
   }
-  #tt1 {
-    color: var(--white-100, #FFF);
-    text-align: center;
-    
-    /* desktop/H2 (bold) */
-    font-family: "RF Dewi Extended";
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 25px; /* 125% */
-    white-space: nowrap;  
-  }
 }
 
 @media (min-width: 568px) {
   #ti11 {
     text-align: center;
-  }
-  #ti111 {
-
   }
 }
 
@@ -1051,6 +1027,32 @@ line-height: 32px; /* 177.778% */
   #t3 {
     font-size: 36px;
     line-height: 45px;
+  }
+  #ttq1 {
+    display: inline-block;
+    width: 100%;
+    max-width: 600px;
+    word-wrap: break-word;
+    text-align: center;
+    margin: auto; 
+    color: var(--white-100, #FFF);
+
+    /* mobile/H3 (bold) */
+    font-family: "RF Dewi Extended";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 145.455% */
+  }
+  .qwe1 {
+    color: var(--grey-50, #C3C5CE);
+
+    /* mobile/p2 (regular) */
+    font-family: "RF Dewi";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
   }
 }
 
@@ -1736,6 +1738,34 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 32px; /* 177.778% */
+}
+#ttq1 {
+  display: inline-block;
+  width: 100%;
+  max-width: 800px;
+  word-wrap: break-word;
+  margin: auto; 
+  color: var(--white-100, #ffffff);
+  text-align: center;
+  
+  /* desktop/H2 (bold) */
+  font-family: "RF Dewi Extended";
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 125% */
+}
+  .qwe1 {
+    color: var(--grey-50, #C3C5CE);
+text-align: center;
+
+/* desktop/p1 (regular) */
+font-family: "RF Dewi";
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 34px; /* 177.778% */
+margin-top: -10px;
   }
 }
 
