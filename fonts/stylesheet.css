@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'RF Dewi';
+    src: url('RFDewi-Regular.eot');
+    src: local('RF Dewi Regular'), local('RFDewi-Regular'),
+        url('RFDewi-Regular.eot?#iefix') format('embedded-opentype'),
+        url('RFDewi-Regular.woff2') format('woff2'),
+        url('RFDewi-Regular.woff') format('woff'),
+        url('RFDewi-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RF Dewi Extended';
+    src: url('RFDewiExtended-Bold.eot');
+    src: local('RF Dewi Extended Bold'), local('RFDewiExtended-Bold'),
+        url('RFDewiExtended-Bold.eot?#iefix') format('embedded-opentype'),
+        url('RFDewiExtended-Bold.woff2') format('woff2'),
+        url('RFDewiExtended-Bold.woff') format('woff'),
+        url('RFDewiExtended-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RF Dewi';
+    src: url('RFDewi-Semibold.eot');
+    src: local('RF Dewi Semibold'), local('RFDewi-Semibold'),
+        url('RFDewi-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('RFDewi-Semibold.woff2') format('woff2'),
+        url('RFDewi-Semibold.woff') format('woff'),
+        url('RFDewi-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'RF Dewi Extended';
+    src: url('RFDewiExtended-Semibold.eot');
+    src: local('RF Dewi Extended Semibold'), local('RFDewiExtended-Semibold'),
+        url('RFDewiExtended-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('RFDewiExtended-Semibold.woff2') format('woff2'),
+        url('RFDewiExtended-Semibold.woff') format('woff'),
+        url('RFDewiExtended-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'RF Dewi';
+    src: url('RFDewi-Light.eot');
+    src: local('RF Dewi Light'), local('RFDewi-Light'),
+        url('RFDewi-Light.eot?#iefix') format('embedded-opentype'),
+        url('RFDewi-Light.woff2') format('woff2'),
+        url('RFDewi-Light.woff') format('woff'),
+        url('RFDewi-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
