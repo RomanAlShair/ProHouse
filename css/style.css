@@ -6,7 +6,7 @@ body {
 
 .navbar-toggler {
   border: none;
-  outline: none; 
+  outline: none;
 }
 
 #nav-icon3 {
@@ -15,7 +15,7 @@ body {
   position: relative;
   margin: 15px auto; /* Уменьшенные отступы */
   transform: rotate(0deg);
-  transition: .5s ease-in-out;
+  transition: 0.5s ease-in-out;
   cursor: pointer;
 }
 #nav-icon3 span {
@@ -27,7 +27,7 @@ body {
   opacity: 1;
   left: 0;
   transform: rotate(0deg);
-  transition: .25s ease-in-out;
+  transition: 0.25s ease-in-out;
 }
 #nav-icon3 span:nth-child(1) {
   top: 0px;
@@ -56,10 +56,6 @@ body {
   left: 50%;
 }
 
-img {
-  user-select: none;
-}
-
 p {
   line-height: 1.5; /* Увеличение промежутка между строками */
 }
@@ -69,7 +65,7 @@ p {
 }
 
 .gray-50 {
-  color: #C3C5CE;
+  color: #c3c5ce;
 }
 
 .gray-90 {
@@ -85,20 +81,20 @@ p {
 }
 
 .to1 {
-color: var(--grey-50, #C3C5CE);
+  color: var(--grey-50, #c3c5ce);
 
-/* desktop/p1 (regular) */
-font-family: "RF Dewi";
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px; /* 177.778% */
+  /* desktop/p1 (regular) */
+  font-family: "RF Dewi";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 177.778% */
 }
 
 .title {
   width: fit-content;
   margin: 0 0 30px;
-  color: var(--white-100, #FFF);
+  color: var(--white-100, #fff);
 
   /* mobile/H3 (bold) */
   font-family: "RF Dewi Extended";
@@ -109,13 +105,12 @@ line-height: 32px; /* 177.778% */
 }
 
 #stay {
-    color: #C3C5CE;
-    font-family: "RF Dewi";
-    font-style: normal;
-    font-weight: 400;
-    margin-left: 7px;
-  }
-
+  color: #c3c5ce;
+  font-family: "RF Dewi";
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 7px;
+}
 
 .w-min-content {
   width: min-content;
@@ -203,7 +198,6 @@ line-height: 32px; /* 177.778% */
   width: inherit;
 }
 
-
 /* Start partners style */
 
 .partners .container {
@@ -219,7 +213,6 @@ line-height: 32px; /* 177.778% */
 .properties .container .tabs {
   gap: 16px;
 }
-
 
 .properties .container .tabs button.active {
   color: white;
@@ -240,19 +233,13 @@ line-height: 32px; /* 177.778% */
   font-size: 18px;
 }
 
-
-
 .about .container div div div {
   position: relative;
 }
 
-
-
 .about .container div div:last-child div:last-child img:last-child {
   width: 550px;
 }
-
-
 
 /* End about us */
 
@@ -344,7 +331,8 @@ line-height: 32px; /* 177.778% */
   height: 100%;
   top: 0;
   left: 0;
-  background-image: url('../image/LogoHouseBlack.webp'), url('../image/LogoHouseBlue.webp');
+  background-image: url("../image/LogoHouseBlack.webp"),
+    url("../image/LogoHouseBlue.webp");
   background-repeat: no-repeat;
   background-position: bottom right 30px, top 10px left;
   z-index: -1;
@@ -430,7 +418,6 @@ footer div span {
 
 /* Small */
 @media (max-width: 768px) {
-
   .swiper-button-next,
   .swiper-button-prev {
     display: none;
@@ -470,8 +457,6 @@ footer div span {
   .subscribe .container div {
     width: 100%;
   }
-
-
 }
 
 /* medium */
@@ -510,10 +495,6 @@ footer div span {
 /*Убрать полосу прокрутки для всей страницы*/
 ::-webkit-scrollbar {
   width: 0;
-}
-
-img {
-  pointer-events: none;
 }
 
 /* HEADER */
@@ -557,6 +538,47 @@ img {
 }
 
 .custom-button:hover {
+  color: #fff;
+  transition: all 0.42s;
+  background-color: #1644b8;
+}
+
+.btn.btn-outline-primary:hover {
+  background-color: transparent; /* Делаем фон прозрачным */
+  color: #d2e2f4; /* Устанавливаем цвет текста при наведении */
+  border-color: #d2e2f4; /* Устанавливаем цвет рамки при наведении */
+}
+
+#log {
+  padding: 7px 24px 9px 24px;
+  font-family: RF Dewi Extended;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 4px;
+  transition: all 0.42s;
+  cursor: pointer;
+}
+
+#log:hover {
+  transition: all 0.42s;
+}
+
+#reg {
+  padding: 7px 24px 9px 24px;
+  border: none;
+  font-family: RF Dewi Extended;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 4px;
+  transition: all 0.42s;
+  cursor: pointer;
+}
+
+#reg:hover {
   color: #fff;
   transition: all 0.42s;
   background-color: #1644b8;
@@ -638,7 +660,7 @@ a:hover {
 }
 
 #ti1 {
-  color: var(--white-100, #FFF);
+  color: var(--white-100, #fff);
 
   /* desktop/H1 (bold) */
   font-family: "RF Dewi Extended";
@@ -649,9 +671,9 @@ a:hover {
 }
 
 #ti {
-  color: var(--white-100, #FFF);
+  color: var(--white-100, #fff);
   text-align: center;
-  
+
   /* desktop/H2 (bold) */
   font-family: "RF Dewi Extended";
   font-size: 36px;
@@ -671,7 +693,7 @@ a:hover {
 }
 
 #ti11 {
-  color: #C3C5CE;
+  color: #c3c5ce;
   font-family: RF Dewi;
   font-size: 18px;
   font-style: normal;
@@ -680,7 +702,7 @@ a:hover {
 }
 
 #t2 {
-  color: #C3C5CE;
+  color: #c3c5ce;
   font-family: RF Dewi;
   font-size: 18px;
   font-style: normal;
@@ -818,7 +840,6 @@ a:hover {
   margin-top: 35px;
 }
 
-
 .parttt {
   margin-left: 25px;
   display: none;
@@ -949,7 +970,6 @@ a:hover {
     font-size: 17px;
     line-height: 30px;
   }
-
 }
 
 @media (max-width: 668px) {
@@ -970,8 +990,8 @@ a:hover {
     width: 100%;
     max-width: 600px;
     word-wrap: break-word;
-    margin: auto; 
-    color: var(--white-100, #FFF);
+    margin: auto;
+    color: var(--white-100, #fff);
     text-align: center;
 
     /* mobile/H3 (bold) */
@@ -981,16 +1001,16 @@ a:hover {
     font-weight: 700;
     line-height: 32px; /* 145.455% */
   }
-.qwe1 {
-  color: var(--grey-50, #C3C5CE);
+  .qwe1 {
+    color: var(--grey-50, #c3c5ce);
 
-/* mobile/p2 (regular) */
-font-family: "RF Dewi";
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px; /* 150% */
-}
+    /* mobile/p2 (regular) */
+    font-family: "RF Dewi";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+  }
 }
 
 @media (max-width: 568px) {
@@ -1014,7 +1034,6 @@ line-height: 24px; /* 150% */
   }
 }
 
-
 @media (max-width: 468px) {
   #t1 {
     font-size: 36px;
@@ -1034,8 +1053,8 @@ line-height: 24px; /* 150% */
     max-width: 600px;
     word-wrap: break-word;
     text-align: center;
-    margin: auto; 
-    color: var(--white-100, #FFF);
+    margin: auto;
+    color: var(--white-100, #fff);
 
     /* mobile/H3 (bold) */
     font-family: "RF Dewi Extended";
@@ -1045,7 +1064,7 @@ line-height: 24px; /* 150% */
     line-height: 32px; /* 145.455% */
   }
   .qwe1 {
-    color: var(--grey-50, #C3C5CE);
+    color: var(--grey-50, #c3c5ce);
 
     /* mobile/p2 (regular) */
     font-family: "RF Dewi";
@@ -1108,8 +1127,6 @@ line-height: 24px; /* 150% */
   transition: all 0.42s;
   background-color: #1644b8;
 }
-
-
 
 .vt {
   display: flex;
@@ -1400,7 +1417,7 @@ footer div span {
 }
 
 #timerk1 {
-  color: var(--white-100, #FFF);
+  color: var(--white-100, #fff);
 
   /* desktop/p2 (semibold) */
   font-family: "RF Dewi";
@@ -1410,7 +1427,7 @@ footer div span {
   line-height: normal;
 }
 #timerk2 {
-  color: var(--white-100, #FFF);
+  color: var(--white-100, #fff);
 
   /* desktop/p2 (semibold) */
   font-family: "RF Dewi";
@@ -1420,7 +1437,7 @@ footer div span {
   line-height: normal;
 }
 #timerk3 {
-  color: var(--white-100, #FFF);
+  color: var(--white-100, #fff);
 
   /* desktop/p2 (semibold) */
   font-family: "RF Dewi";
@@ -1430,7 +1447,7 @@ footer div span {
   line-height: normal;
 }
 #timerk4 {
-  color: var(--white-100, #FFF);
+  color: var(--white-100, #fff);
 
   /* desktop/p2 (semibold) */
   font-family: "RF Dewi";
@@ -1440,7 +1457,7 @@ footer div span {
   line-height: normal;
 }
 #timerk5 {
-  color: var(--white-100, #FFF);
+  color: var(--white-100, #fff);
 
   /* desktop/p2 (semibold) */
   font-family: "RF Dewi";
@@ -1450,7 +1467,7 @@ footer div span {
   line-height: normal;
 }
 #timerk6 {
-  color: var(--white-100, #FFF);
+  color: var(--white-100, #fff);
 
   /* desktop/p2 (semibold) */
   font-family: "RF Dewi";
@@ -1460,7 +1477,7 @@ footer div span {
   line-height: normal;
 }
 #timerk7 {
-  color: var(--white-100, #FFF);
+  color: var(--white-100, #fff);
 
   /* desktop/p2 (semibold) */
   font-family: "RF Dewi";
@@ -1470,7 +1487,7 @@ footer div span {
   line-height: normal;
 }
 #timerk8 {
-  color: var(--white-100, #FFF);
+  color: var(--white-100, #fff);
 
   /* desktop/p2 (semibold) */
   font-family: "RF Dewi";
@@ -1583,19 +1600,19 @@ footer div span {
 }
 
 footer li {
-  color: var(--white-100, #FFF);
+  color: var(--white-100, #fff);
 
-/* desktop/p2 (Light) */
-font-family: "RF Dewi";
-font-size: 16px;
-font-style: normal;
-font-weight: 300;
-line-height: normal;
+  /* desktop/p2 (Light) */
+  font-family: "RF Dewi";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
 }
 
 a {
   cursor: pointer;
-  }
+}
 
 .lot22 {
   position: relative;
@@ -1740,43 +1757,43 @@ a {
     text-align: center;
     word-wrap: break-word;
     margin: 0 auto;
-    color: var(--grey-50, #C3C5CE);
-text-align: center;
+    color: var(--grey-50, #c3c5ce);
+    text-align: center;
 
-/* desktop/p1 (regular) */
-font-family: "RF Dewi";
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px; /* 177.778% */
-}
-#ttq1 {
-  display: inline-block;
-  width: 100%;
-  max-width: 800px;
-  word-wrap: break-word;
-  margin: auto; 
-  color: var(--white-100, #ffffff);
-  text-align: center;
-  
-  /* desktop/H2 (bold) */
-  font-family: "RF Dewi Extended";
-  font-size: 44px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 48px; /* 125% */
-}
+    /* desktop/p1 (regular) */
+    font-family: "RF Dewi";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 177.778% */
+  }
+  #ttq1 {
+    display: inline-block;
+    width: 100%;
+    max-width: 800px;
+    word-wrap: break-word;
+    margin: auto;
+    color: var(--white-100, #ffffff);
+    text-align: center;
+
+    /* desktop/H2 (bold) */
+    font-family: "RF Dewi Extended";
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 125% */
+  }
   .qwe1 {
-    color: var(--grey-50, #C3C5CE);
-text-align: center;
+    color: var(--grey-50, #c3c5ce);
+    text-align: center;
 
-/* desktop/p1 (regular) */
-font-family: "RF Dewi";
-font-size: 21px;
-font-style: normal;
-font-weight: 400;
-line-height: 34px; /* 177.778% */
-margin-top: -10px;
+    /* desktop/p1 (regular) */
+    font-family: "RF Dewi";
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px; /* 177.778% */
+    margin-top: -10px;
   }
 }
 
